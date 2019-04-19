@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/main.css"/>
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+      <script src="js/jquery-3.2.1.js"></script>
+      
+    <title>TEDx-ODUNPAZARI</title>
+      
+  </head>
+    
+    <script>
+           
+    
+        $(document).ready(function() {
+                         
+                $("div.caption button").click(function() {
+                $("div.caption p").toggle(2000); 
+                            
+            }); 
+            
+                $("[href^='#']").on('click', function(event) {
+                    
+                   
+                        event.preventDefault();
+                        
+                        var target = this.hash;
+                        var $target = $(target);
+                        
+                        $('html, body').animate({
+                            'scrollTop' : $target.offset().top
+                        }, 1500, 'swing', function(){
+                            window.location.hash = target;
+                        });
+                        
+                    
+                
+                            
+            });        
+        });
+    
+            
+        </script>
+    
+    
+  <body>
+   
+<section id="back1">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-primary navbar-fixed-top navcolor">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed navbtn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand pad0" href="index.html">
+                        <img src="images/tedx.png" height="80" width="80" alt="irfan" class="img-circle"/></a>
+                    </div>
+                       
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a class="nav-link" href="#back1">Anasayfa</a></li>
+                            
+                            <li><a class="nav-link" href="#ekip">Ekip</a></li>
+                            <li><a class="nav-link" href="#">Galeri</a></li>
+								
+							<li class="dropdown	">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Hakkında
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								  <li><a class="nav-link2" href="#tednedir">Ted Nedir</a></li>
+								  <li><a class="nav-link2" href="#tedxnedir">Tedx Nedir</a></li>
+								  <li><a class="nav-link2" href="#tedodunpazarı">Tedx Odunpazarı Nedir</a></li>
+								</ul>
+							</li>
+                            <li><a class="nav-link" href="#contact">İletişim</a></li>
+                            
+                        </ul>
+                        <form class="navbar-form navbar-right m0">
+                          <a href="#"><button type="button" class="btn btn-primary navbar-btn">Bilet Al</button></a>
+                        </form>  
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="hd1">TEDx<span class="hd2">ODUNPAZARI</span></h1>
+        </div>  
+        <div class="col-sm-12">
+            <p class="par1"><em>Hoşgeldiniz... Eylülde buluşmaya hazır mısınız? </em></p>
+        </div>   
+    </div>
+</div>
+</section>
+      
+      
+      
+                       <!--ABOUT ME PART--> 
+      
+                          
+<section id="tednedir" class="back2 pad20"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <center><img src="images/tedx5.png" class="img-responsive" alt="irfan"></center>
+            </div>
+            <div class="col-md-7">
+                <h3 class="h-aboutme">Ted Nedir?</h3>
+                <p class="p-aboutme"> TED ilk olarak 1984 yılında (adını aldığı) Teknoloji, Eğlence ve Tasarım konularını bir araya getirmek amacıyla düzenlenen bir konferans olarak hayata geçirildi. Yıllar içinde kapsamı genişletilerek sürekli daha büyük bir azimle çalışıldı. Şimdi hangi alanda çalışırlarsa çalışsınlar dünyanın en iyi düşünürlerini ve icracılarını bir araya getirmeye çabalıyoruz. Bütün bilgiler birbirine bağlıdır ve TED, farklı alanlara ait önemli düşünce biçimlerini keşfedip kendi yaşamınıza ve iş hayatınıza uyarlayabileceğiniz bir merkez haline geldi. Çoğu katılımcı için sonuç: enfes, beklenmedik bağlantılar, olağandışı görüşler ve güçlü bir ilham kaynağı...</p>
+
+               
+            </div>
+        </div>
+    </div>
+</section>
+<section id="tedxnedir" class="back3 pad20"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <center><img src="images/tedx4.jpg" class="img-responsive" alt="irfan"></center>
+            </div>
+            <div class="col-md-7">
+                <h3 class="h-aboutme">Tedx Nedir?</h3>
+                <p class="p-aboutme">TEDx ise “payIaşmaya değer fikirler”in dile getirildiği yerel bir programdır. TED, “Paylaşmaya Değer Fikirler” anIayışıyla, kişiler ve organizasyonların TED benzeri kendi yerel etkinliklerini yapabilmeleri için TEDx'i yaratmıştır. TEDx ismindeki “x” bağımsız organize edilen TED etkinlikleri anlamına gelmektedir.
+				TEDx lisansı, konferans düzenleme ve fikir paylaşımı deneyimine sahip olmak demektir. TEDx etkinlikleri 400’ün üzerinde TED video arşivinin de gücüyle, etkinliğin kendi konuşmacıları ve performansları ile beraber yeni fikirler, ilham veren konular ve heyecan verici konuşmalarla zenginleşen bir dünyayı yaşamanızı sağlar.</p>
+                 
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tedodunpazarı" class="back2 pad20"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <center><img src="images/tedx8.png" class="img-responsive" alt="irfan"></center>
+            </div>
+            <div class="col-md-7">
+                <h3 class="h-aboutme">Tedx Odunpazarı Nedir</h3>
+                <p class="p-aboutme">Eskişehir'imize çok yakışacağına inandığımız bir oluşum için 2017 yılında biraraya geldik.Dört kişilik ekibimizle TED Global etkinliklerinden ilham alarak TEDx organizasyonunu şehrimizde yapabilmek adına sıkı bir çalışma yürüttük.Eskişehir'de ilk ve tek TEDx etkinliğini gerçekleştirmek için TED Global'den almış olduğumuz uluslararası lisansımız ile 2018 yılında TEDxOdunpazarı ile karşınızda olacağız.  </p>
+                </div>
+        </div>
+    </div>
+</section>
+      
+
+                 <!--FAVOURITES HOBBIES PART--> 
+      
+      
+      
+<section id="ekip">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-4 pad20">
+                <h3 class="famhobhead"> EKİBİMİZ</h3>
+                
+            </div>
+        </div>
+        
+        <div class="row pad20">
+            <div class="col-sm-4">
+                <span class="glyphicon gly1 glyphicon-user" aria-hidden="true"></span>
+                <h4 class="tcenter"><a href="https://www.ted.com/profiles/8139585" target = "_blank">Seda Atak</a></h4>
+                <p>I've been working as an Environmental Engineer. I m an enthusiasm to take part in organizations that include science and technology. I worked in a Full Workshop-Science Festival organized within the scope of Tubitak 4007 Project. The Festival was organized by Eskişehir Municipiality Science and Experiment Center.</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon gly1 glyphicon-user" aria-hidden="true"></span>
+                 <h4 class="tcenter"><a href="https://www.ted.com/profiles/8947075" target="_blank">Sermihan Türker</a>	</h4>
+                <p>Value creation Sales Professional with strong Market Research and Analitytics backround adept in selling solutions and identifying insights to unlock growth, accelerate sales and increase customer commitment BS degree in Chemical Engineering and ongoing MA Cultural Studies Experince</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon gly1 glyphicon-user" aria-hidden="true"></span>
+                 <h4 class="tcenter"><a href="https://www.linkedin.com/in/hakan-%C3%B6zkara-0969b139/"target="_blank">Hakan Özkara</a></h4>
+                <p>Fixture, Tool Design and Manufacturing and Supervisor - Ford Otosan..</p>
+            </div>
+        </div>
+        
+        <div class="row pad20">
+           <div class="col-xs-4 col-xs-offset-4">
+                
+            </div>
+        </div>
+    </div>    
+</section>
+      
+
+      
+            <!--SPONSOR PART--> 
+      
+      
+ <!--     
+<section id="sfamily" class="pad20 backfam">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pad20"><h3 class="famhobhead">SPONSORLAR</h3></div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" class="fillimage">
+                    <div class="caption">
+                        <h3</h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" class="fillimage">
+                    <div class="caption">
+                        <h3></h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" alt="..." class="fillimage">
+                    <div class="caption">
+                        <h3> </h3>
+                        <p>...</p>
+                       <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" alt="..." class="fillimage">
+                    <div class="caption">
+                        <h3> </h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" class="fillimage">
+                    <div class="caption">
+                        <h3></h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" class="fillimage">
+                    <div class="caption">
+                        <h3></h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" alt="..." class="fillimage">
+                    <div class="caption">
+                        <h3></h3>
+                        <p>.</p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="" alt="..." class="fillimage">
+                    <div class="caption">
+                        <h3></h3>
+                        <p></p>
+                        <button class="btn btn-primary">Toggle </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      -->
+                           <!--ANNOUNCEMENT/EVENTS-->  
+      
+      
+      
+<section class="pad20"> 
+   <div class="container">
+		<div class="row pad20">
+			<div class="col-md-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+						<span class="glyphicon gly2 glyphicon-volume-up" aria-hidden="true"> </span>DUYURULAR
+						</h3>
+					</div>
+					<div class="panel-body">
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+						</ul>
+							<a href="#" class="btn btn-success btn-block">All Announcements</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+						<span class="glyphicon gly2 glyphicon-calendar" aria-hidden="true"></span>ETKİNLİKLER
+						</h3>
+					</div>
+					<div class="panel-body">
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+						</ul>
+							<a href="#" class="btn btn-danger btn-block">All Activities</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="col-md-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+						<span class="glyphicon gly2 glyphicon-comment" aria-hidden="true"></span>YORUMLAR
+						</h3>
+					</div>
+					<div class="panel-body">
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+							<li class="media">
+								<div class="media-left">
+									<span class="glyphicon gly2 glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									.edia heaedia heaedia heaedia heaedia heaedia heaedia heaedia heaedia hea
+								</div>
+							</li>
+						</ul>
+							<a href="#" class="btn btn-info btn-block">All Comments</a>
+					</div>
+				</div>
+			</div>
+		</div>
+   </div>
+</section>
+	
+		        
+      
+      
+                    <!--CONTACT ME PART-->  
+      
+      
+<section id="contact" class="sback">
+	<div class="container">
+		<div class="row pad20">
+			<div class="col-md-12 "> <h4 class="formh4">Bize Ulaşın</h4> </div>
+			<div class="col-md-6 pad20">
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="İsim*">
+					</div>
+					<div class="form-group">	
+						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Soyisim*">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="comment" placeholder="Mesajınız*"></textarea>
+					</div>
+                    <div>
+						 <form class="form-group">
+                          <button type="button" class="btn btn-primary navbar-btn">Gönder</button>
+                        </form>  
+                    </div>
+				</form>
+			</div>
+			
+			<div class="col-md-4 pad20">
+				<div class="col-md-12 pad15">Telefon: +44 4123456</div>
+				<div class="col-md-12 pad15">Email: mail@yourdomain.com</div>
+				<div class="col-md-12 pad15">Adres: Bak-One Company <br>
+                                             12345 Hollywood Bvld Street<br>
+                                             Odunpazarı , Eskişehir</div>			
+            </div>	
+            <div class="col-md-2"></div>
+		</div>
+	</div>
+</section>
+      
+ <section class="pad20">   
+        <div class="container">
+            <div class="row tcenter">
+                <div>
+                    <p class="par2">&copy; 2018 <strong>Tedx Odunpazarı</strong>. All Rights Reserved</p>
+                </div>
+                
+                <div>
+                    <ul class="social-icons tcenter">
+                        <li class="social-icon">
+                            <a href="https://twitter.com/TEDx" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.facebook.com/TEDxEvents/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="https://www.instagram.com/tedx_official/?hl=tr" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    
+                    </ul>
+                </div>
+                
+              
+                
+            </div>
+        </div>
+       
+ </section>       
+      
+      
+      
+      
+      
+      
+      <script src="js/jquery-3.2.0.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

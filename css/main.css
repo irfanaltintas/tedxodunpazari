@@ -1,0 +1,232 @@
+
+html,
+body,
+#back1{
+    height: 100%;
+}
+
+
+
+.pad0{ padding: 0px; }
+
+.m0 {  margin: 0px;   }
+
+            /*SECTION1 -NAVBAR- HOME-*/
+
+#back1{
+        background: url('../images/back2.jpg') no-repeat center center fixed;
+        background-size: cover;
+         }
+
+.navcolor{
+        background-color: black;}
+
+.navbtn{
+        color: blue;
+        background-color: aquamarine; }
+
+.icon-bar{
+        color: black; background-color: black;}
+
+a.nav-link{
+        color:bisque !important;
+        font-family:inherit ;
+        font-size: 18px;
+        transition: color 0.5s ease; 
+		margin-top:15px;
+		margin-left:10px;}
+a.nav-link2{
+        color:black !important;
+        font-family:inherit ;
+        font-size: 18px;
+        transition: color 0.5s ease; 
+		margin-top:15px;
+		margin-left:10px;}
+
+a.nav-link:visited{
+        background-color: black !important;
+        color: crimson; }
+
+a.nav-link:hover{
+        background-color: black !important;
+        color: crimson !important ;  }
+
+.btn-primary{
+        background-color: blue;
+        font-family: 'arial';
+        font-size: 15px;
+        padding: 8px 20px;}
+
+.btn-primary:hover{
+        background-color: orange;
+        color: black;}
+
+.hd1{
+        font-family: 'century gothic';
+        font-size: 100px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: red;
+        margin-top: 220px;     }
+		
+.hd2{
+        font-family: 'century gothic';
+        font-size: 100px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+        color: white;
+             }
+.par1{
+        font-family: monospace;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-right: 20px;    }
+
+
+
+
+
+
+        /*SECTION2*/
+
+.pad20{
+        padding-top: 40px;
+        padding-bottom: 40px;}
+
+
+
+.mar{  margin: 0px auto;}
+
+.back2{
+       background-color: #ca0009;
+        
+                }
+.back3{
+       background-color: white;
+        
+                }
+.formh4{
+	
+	text-align: justify;	
+    font-family: 'aharoni';
+    font-size: 50px;
+    color: aliceblue;
+}  
+.h-aboutme{
+	
+	text-align: justify;	
+    font-family: 'arial black';
+    font-size: 50px;
+    color: black;}
+
+.p-aboutme{
+    font-family: 'book antiqua';
+    font-size: 20px;
+}
+
+
+
+.gly1{
+    font-size: 50px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+
+.tcenter{
+    text-align: center;
+}
+
+
+.gly2{
+	font-size:25px;
+	padding-right:15px;
+	  
+}
+.panel-title{
+	font-family:times new roman;
+}
+.sback{
+	background-image: url('../images/back4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pad15{
+	padding-bottom:15px;
+	background-color:white;
+	margin-bottom:15px;
+}
+
+              /*FOOTER*/
+
+
+
+.par2{
+    font-family: 'Arial';
+    font-weight: 500;
+    line-height: 40px;}
+
+.social-icons{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+    color:#fff !important;
+    font-size: 20px;
+}
+.fa{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: black;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fillimage {
+    width:242px !important;
+    height: 200px !important;
+}
+
+
+.backfam{
+    background-color: lightgray;
+}
+.famhobhead{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'ar berkley'
+}
+
+
+.registerback{
+    background-image: url(../images/back5.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
